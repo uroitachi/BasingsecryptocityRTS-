@@ -1,0 +1,20 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Стиль тайлов */
+.tile {
+    width: 50px;
+    height: 25px; /* Высота уменьшена для ромба */
+    background-color: green;
+    transform: rotate(45deg); /* Поворот на 45 градусов */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
